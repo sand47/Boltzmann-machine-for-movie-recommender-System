@@ -5,7 +5,6 @@ made by 6,040 MovieLens users who joined MovieLens in 2000.
 
 # About dataset
 
-
 All ratings are contained in the file "ratings.dat" and are in the
 following format:
 
@@ -16,8 +15,10 @@ UserID::MovieID::Rating::Timestamp
 - Ratings are made on a 5-star scale (whole-star ratings only)
 - Timestamp is represented in seconds since the epoch as returned by time(2)
 - Each user has at least 20 ratings
+
 USERS FILE DESCRIPTION
 ================================================================================
+
 
 User information is in the file "users.dat" and is in the following
 format:
@@ -107,3 +108,8 @@ paper:
 F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History
 and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4,
 Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872
+
+
+I would like to thank  Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team for their help in their Udemy Deep learning A-Z course where I learnt this implementation. 
+
+The pdf attached gives you a in depth understanding of concepts in RBM.
